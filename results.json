@@ -1,0 +1,332 @@
+{
+  "gpt2": {
+    "eng": {
+      "tokens": 27044,
+      "premium": 1.0,
+      "sent": 1012,
+      "word": 21901,
+      "graph": 131966,
+      "byte": 132096
+    },
+    "hin": {
+      "tokens": 200688,
+      "premium": 7.420795740275107,
+      "sent": 1012,
+      "word": 25643,
+      "graph": 85957,
+      "byte": 337439
+    },
+    "ben": {
+      "tokens": 259769,
+      "premium": 9.605420795740276,
+      "sent": 1012,
+      "word": 19506,
+      "graph": 81693,
+      "byte": 348729
+    },
+    "mar": {
+      "tokens": 212471,
+      "premium": 7.856493122319184,
+      "sent": 1012,
+      "word": 19046,
+      "graph": 80288,
+      "byte": 355511
+    },
+    "kan": {
+      "tokens": 367366,
+      "premium": 13.58401124094069,
+      "sent": 1012,
+      "word": 16100,
+      "graph": 90371,
+      "byte": 375341
+    },
+    "tam": {
+      "tokens": 420171,
+      "premium": 15.536570034018636,
+      "sent": 1012,
+      "word": 16775,
+      "graph": 99724,
+      "byte": 421635
+    },
+    "tel": {
+      "tokens": 350748,
+      "premium": 12.969531134447568,
+      "sent": 1012,
+      "word": 16938,
+      "graph": 76567,
+      "byte": 353661
+    },
+    "mal": {
+      "tokens": 409983,
+      "premium": 15.159850613814525,
+      "sent": 1012,
+      "word": 14930,
+      "graph": 79428,
+      "byte": 411741
+    }
+  },
+  "cl100k_base": {
+    "eng": {
+      "tokens": 27182,
+      "premium": 1.0,
+      "sent": 1012,
+      "word": 21901,
+      "graph": 131966,
+      "byte": 132096
+    },
+    "hin": {
+      "tokens": 129573,
+      "premium": 4.766867780148628,
+      "sent": 1012,
+      "word": 25643,
+      "graph": 85957,
+      "byte": 337439
+    },
+    "ben": {
+      "tokens": 159888,
+      "premium": 5.882127878743286,
+      "sent": 1012,
+      "word": 19506,
+      "graph": 81693,
+      "byte": 348729
+    },
+    "mar": {
+      "tokens": 137227,
+      "premium": 5.048451180928556,
+      "sent": 1012,
+      "word": 19046,
+      "graph": 80288,
+      "byte": 355511
+    },
+    "kan": {
+      "tokens": 240716,
+      "premium": 8.855713339710102,
+      "sent": 1012,
+      "word": 16100,
+      "graph": 90371,
+      "byte": 375341
+    },
+    "tam": {
+      "tokens": 207768,
+      "premium": 7.643587668309911,
+      "sent": 1012,
+      "word": 16775,
+      "graph": 99724,
+      "byte": 421635
+    },
+    "tel": {
+      "tokens": 225253,
+      "premium": 8.286844235155618,
+      "sent": 1012,
+      "word": 16938,
+      "graph": 76567,
+      "byte": 353661
+    },
+    "mal": {
+      "tokens": 242924,
+      "premium": 8.936943565594879,
+      "sent": 1012,
+      "word": 14930,
+      "graph": 79428,
+      "byte": 411741
+    }
+  },
+  "o200k_base": {
+    "eng": {
+      "tokens": 26873,
+      "premium": 1.0,
+      "sent": 1012,
+      "word": 21901,
+      "graph": 131966,
+      "byte": 132096
+    },
+    "hin": {
+      "tokens": 42247,
+      "premium": 1.5720983887173,
+      "sent": 1012,
+      "word": 25643,
+      "graph": 85957,
+      "byte": 337439
+    },
+    "ben": {
+      "tokens": 46011,
+      "premium": 1.7121646262047407,
+      "sent": 1012,
+      "word": 19506,
+      "graph": 81693,
+      "byte": 348729
+    },
+    "mar": {
+      "tokens": 48783,
+      "premium": 1.8153164886689241,
+      "sent": 1012,
+      "word": 19046,
+      "graph": 80288,
+      "byte": 355511
+    },
+    "kan": {
+      "tokens": 52886,
+      "premium": 1.967997618427418,
+      "sent": 1012,
+      "word": 16100,
+      "graph": 90371,
+      "byte": 375341
+    },
+    "tam": {
+      "tokens": 53195,
+      "premium": 1.9794961485505898,
+      "sent": 1012,
+      "word": 16775,
+      "graph": 99724,
+      "byte": 421635
+    },
+    "tel": {
+      "tokens": 51841,
+      "premium": 1.9291110036095709,
+      "sent": 1012,
+      "word": 16938,
+      "graph": 76567,
+      "byte": 353661
+    },
+    "mal": {
+      "tokens": 52580,
+      "premium": 1.956610724519034,
+      "sent": 1012,
+      "word": 14930,
+      "graph": 79428,
+      "byte": 411741
+    }
+  },
+  "hf:xlm-roberta-base": {
+    "eng": {
+      "tokens": 30661,
+      "premium": 1.0,
+      "sent": 1012,
+      "word": 21901,
+      "graph": 131966,
+      "byte": 132096
+    },
+    "hin": {
+      "tokens": 38221,
+      "premium": 1.2465673004794364,
+      "sent": 1012,
+      "word": 25643,
+      "graph": 85957,
+      "byte": 337439
+    },
+    "ben": {
+      "tokens": 42118,
+      "premium": 1.3736668732265744,
+      "sent": 1012,
+      "word": 19506,
+      "graph": 81693,
+      "byte": 348729
+    },
+    "mar": {
+      "tokens": 37330,
+      "premium": 1.2175075829229314,
+      "sent": 1012,
+      "word": 19046,
+      "graph": 80288,
+      "byte": 355511
+    },
+    "kan": {
+      "tokens": 41459,
+      "premium": 1.3521737712403379,
+      "sent": 1012,
+      "word": 16100,
+      "graph": 90371,
+      "byte": 375341
+    },
+    "tam": {
+      "tokens": 41354,
+      "premium": 1.3487492254003457,
+      "sent": 1012,
+      "word": 16775,
+      "graph": 99724,
+      "byte": 421635
+    },
+    "tel": {
+      "tokens": 40372,
+      "premium": 1.3167215681158475,
+      "sent": 1012,
+      "word": 16938,
+      "graph": 76567,
+      "byte": 353661
+    },
+    "mal": {
+      "tokens": 42190,
+      "premium": 1.3760151332311406,
+      "sent": 1012,
+      "word": 14930,
+      "graph": 79428,
+      "byte": 411741
+    }
+  },
+  "hf:google/muril-base-cased": {
+    "eng": {
+      "tokens": 27581,
+      "premium": 1.0,
+      "sent": 1012,
+      "word": 21901,
+      "graph": 131966,
+      "byte": 132096
+    },
+    "hin": {
+      "tokens": 31924,
+      "premium": 1.1574634712301948,
+      "sent": 1012,
+      "word": 25643,
+      "graph": 85957,
+      "byte": 337439
+    },
+    "ben": {
+      "tokens": 27613,
+      "premium": 1.0011602189913347,
+      "sent": 1012,
+      "word": 19506,
+      "graph": 81693,
+      "byte": 348729
+    },
+    "mar": {
+      "tokens": 29332,
+      "premium": 1.063485732932091,
+      "sent": 1012,
+      "word": 19046,
+      "graph": 80288,
+      "byte": 355511
+    },
+    "kan": {
+      "tokens": 29382,
+      "premium": 1.0652985751060513,
+      "sent": 1012,
+      "word": 16100,
+      "graph": 90371,
+      "byte": 375341
+    },
+    "tam": {
+      "tokens": 29204,
+      "premium": 1.0588448569667526,
+      "sent": 1012,
+      "word": 16775,
+      "graph": 99724,
+      "byte": 421635
+    },
+    "tel": {
+      "tokens": 33190,
+      "premium": 1.2033646350748703,
+      "sent": 1012,
+      "word": 16938,
+      "graph": 76567,
+      "byte": 353661
+    },
+    "mal": {
+      "tokens": 32660,
+      "premium": 1.184148508030891,
+      "sent": 1012,
+      "word": 14930,
+      "graph": 79428,
+      "byte": 411741
+    }
+  }
+}
