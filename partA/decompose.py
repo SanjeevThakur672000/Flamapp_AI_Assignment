@@ -14,10 +14,18 @@ so the headline hin/eng fertility ratio factorises exactly into
 The report asserts the whole effect is the first factor ("a property of the
 script, not the tokenizer"). We measure both.
 """
-import sys, unicodedata, regex
+import sys, unicodedata, regex, os
 
-import os
-_DEF = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "starter_kit", "corpus_sample")
+
+def _find(rel):
+    import os
+    here = os.path.dirname(os.path.abspath(__file__))
+    for up in (".", "..", "../..", "../../.."):
+        c = os.path.normpath(os.path.join(here, up, rel))
+        if os.path.exists(c):
+            return c
+    return os.path.normpath(os.path.join(here, "..", rel))
+_DEF = _find('starter_kit/corpus_sample')
 D = sys.argv[1] if len(sys.argv) > 1 else _DEF
 if not os.path.isdir(D): sys.exit(f"corpus_sample not found at {D}\nusage: python {sys.argv[0]} /path/to/corpus_sample")
 FILES = {"eng": "eng_sample.txt", "hin": "hin_sample.txt"}

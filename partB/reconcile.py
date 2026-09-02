@@ -1,7 +1,15 @@
 import csv
 import os, sys
-LOG = sys.argv[1] if len(sys.argv) > 1 else os.path.join(
-    os.path.dirname(os.path.abspath(__file__)), '..', '..', 'starter_kit', 'bench', 'bench_log.csv')
+
+def _find(rel):
+    import os
+    here = os.path.dirname(os.path.abspath(__file__))
+    for up in (".", "..", "../..", "../../.."):
+        c = os.path.normpath(os.path.join(here, up, rel))
+        if os.path.exists(c):
+            return c
+    return os.path.normpath(os.path.join(here, "..", rel))
+LOG = sys.argv[1] if len(sys.argv) > 1 else _find('starter_kit/bench/bench_log.csv')
 if not os.path.exists(LOG):
     sys.exit(f'bench_log.csv not found at {LOG}\n'
              f'usage: python {sys.argv[0]} /path/to/bench_log.csv')
