@@ -65,6 +65,5 @@ supposed to support.
 
 ## What I would be slower on
 
-- `[YOU: be honest here — e.g. re-deriving the 50% MFU prefill figure from
-  scratch, or reproducing the roofline inversion that gives 26.4 resident
-  sequences at batch 48. Naming a weak spot beats being found out.]`
+- `I would be slower at **reproducing the roofline inversion that gives 26.4 resident sequences at batch 48**, since it requires carefully reconstructing the underlying assumptions, hardware constraints, and calculations rather than just recalling a reported figure.
+`
