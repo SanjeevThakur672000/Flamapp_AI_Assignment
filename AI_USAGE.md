@@ -65,5 +65,5 @@ supposed to support.
 
 ## What I would be slower on
 
-- `I would be slower at **reproducing the roofline inversion that gives 26.4 resident sequences at batch 48**, since it requires carefully reconstructing the underlying assumptions, hardware constraints, and calculations rather than just recalling a reported figure.
+- `I would be slower at reproducing the roofline inversion that gives 26.4 resident sequences at batch 48, since it requires carefully reconstructing the underlying assumptions, hardware constraints, and calculations rather than just recalling a reported figure.
 `
